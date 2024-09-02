@@ -11,11 +11,11 @@
 		label = "default_kscan";
 		diode-direction = "col2row";
 
-		row-gpios = <&pro_micro 0 (GPIO_ACTIVE_HIGH | GPIO_PULL DOWN)>,
-					<&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL DOWN)>,
-					<&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL DOWN)>,
-					<&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL DOWN)>,
-					<&pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL DOWN)>;
+		row-gpios = <&pro_micro 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+					<&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+					<&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+					<&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+					<&pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
 
 		col-gpios = <&pro_micro 5 GPIO_ACTIVE_HIGH>, //Col 0 = Pin 5
 					<&pro_micro 6 GPIO_ACTIVE_HIGH>, //Col 1 = Pin 6
